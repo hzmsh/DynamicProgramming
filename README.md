@@ -85,5 +85,5 @@ If you have any questions or suggestions, please contact me via [GitHub email](m
 ## Acknowledgments 🎉
 
 Special thanks to:
-- [Towards Data Science](https://www.towardsdatascience.com) and [Geek Culture](https://medium.com/geekculture) for hosting the articles that inspired these solutions.
+- [Towards Data Science](https://towardsdatascience.com/) and [Geek Culture](https://medium.com/geekculture) for hosting the articles that inspired these solutions.
 - Contributors and readers who provide valuable feedback and suggestions.
