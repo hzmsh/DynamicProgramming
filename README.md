@@ -38,19 +38,19 @@ cd dynamic-programming-problems
 ## Problems Solved
 
 ### All Problems
-- Divisor Game (Leetcode 1025)
-- Pascal's Triangle (Leetcode 118)
-- Pascal's Triangle II (Leetcode 119)
-- Best Time to Buy and Sell Stock (Leetcode 121)
+- Longest Palindromic Substring (Leetcode 5)
 - Generate Parentheses (Leetcode 22)
-- Counting Bits (Leetcode 338)
-- Is Subsequence (Leetcode 392)
 - Jump Game II (Leetcode 45)
 - Maximum Subarray (Leetcode 53)
-- Longest Palindromic Substring (Leetcode 5)
 - Edit Distance (Leetcode 72)
 - Decode Ways (Leetcode 91)
 - Interleaving String (Leetcode 97)
+- Pascal's Triangle (Leetcode 118)
+- Pascal's Triangle II (Leetcode 119)
+- Best Time to Buy and Sell Stock (Leetcode 121)
+- Counting Bits (Leetcode 338)
+- Is Subsequence (Leetcode 392)
+- Divisor Game (Leetcode 1025)
 
 ### Fibonacci Sequence 🧬
 
