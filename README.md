@@ -7,6 +7,7 @@ Welcome to my dynamic programming repository where I explore and explain solutio
 - [About the Repository](#about-the-repository)
 - [Installation](#installation)
 - [Problems Solved](#problems-solved)
+  - [All Problems](#all-problems)
   - [Fibonacci Sequence](#fibonacci-sequence)
   - [Climbing Stairs](#climbing-stairs)
 - [Usage](#usage)
@@ -19,9 +20,9 @@ Welcome to my dynamic programming repository where I explore and explain solutio
 
 This repository includes Python scripts that demonstrate dynamic programming and recursion solutions to well-known problems, currently featuring:
 - Fibonacci Sequence (Leetcode 509)
-   - [https://medium.com/geekculture/recursion-vs-dynamic-programming-climbing-stairs-48032b31db98](https://shuhenglonghorn.medium.com/recursion-vs-dynamic-programming-climbing-stairs-48032b31db98)
+   - [Recursion vs. Dynamic Programming: Climbing Stairs](https://medium.com/geekculture/recursion-vs-dynamic-programming-climbing-stairs-48032b31db98)
 - Climbing Stairs (Leetcode 70)
-   - https://medium.com/geekculture/recursion-vs-dynamic-programming-climbing-stairs-48032b31db98
+   - [Recursion vs. Dynamic Programming: Climbing Stairs](https://medium.com/geekculture/recursion-vs-dynamic-programming-climbing-stairs-48032b31db98)
 
 Each solution is discussed with respect to both its recursive and dynamic programming implementations, including analysis of time and space complexities.
 
@@ -35,6 +36,21 @@ cd dynamic-programming-problems
 ```
 
 ## Problems Solved
+
+### All Problems
+- Divisor Game (Leetcode 1025)
+- Pascal's Triangle (Leetcode 118)
+- Pascal's Triangle II (Leetcode 119)
+- Best Time to Buy and Sell Stock (Leetcode 121)
+- Generate Parentheses (Leetcode 22)
+- Counting Bits (Leetcode 338)
+- Is Subsequence (Leetcode 392)
+- Jump Game II (Leetcode 45)
+- Maximum Subarray (Leetcode 53)
+- Longest Palindromic Substring (Leetcode 5)
+- Edit Distance (Leetcode 72)
+- Decode Ways (Leetcode 91)
+- Interleaving String (Leetcode 97)
 
 ### Fibonacci Sequence 🧬
 
