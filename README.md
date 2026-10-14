@@ -18,9 +18,9 @@ Welcome to my dynamic programming repository where I explore and explain solutio
 
 ## About the Repository
 
-This repository includes Python scripts that demonstrate dynamic programming and recursion solutions to well-known problems, currently featuring:
+This repository includes Python scripts that solve 15 LeetCode problems with both recursion and dynamic programming (see [All Problems](#all-problems)). Two of them have detailed write-ups:
 - Fibonacci Sequence (Leetcode 509)
-   - [Recursion vs. Dynamic Programming: Climbing Stairs](https://medium.com/geekculture/recursion-vs-dynamic-programming-climbing-stairs-48032b31db98)
+   - [Recursion vs. Dynamic Programming: Fibonacci](https://medium.com/data-science/dynamic-programming-i-python-8b20387870f5)
 - Climbing Stairs (Leetcode 70)
    - [Recursion vs. Dynamic Programming: Climbing Stairs](https://medium.com/geekculture/recursion-vs-dynamic-programming-climbing-stairs-48032b31db98)
 
@@ -31,8 +31,8 @@ Each solution is discussed with respect to both its recursive and dynamic progra
 To clone and run these scripts locally, use the following commands:
 
 ```bash
-git clone https://github.com/yourusername/dynamic-programming-problems.git
-cd dynamic-programming-problems
+git clone https://github.com/hzmsh/DynamicProgramming.git
+cd DynamicProgramming
 ```
 
 ## Problems Solved
@@ -42,6 +42,7 @@ cd dynamic-programming-problems
 - Generate Parentheses (Leetcode 22)
 - Jump Game II (Leetcode 45)
 - Maximum Subarray (Leetcode 53)
+- Climbing Stairs (Leetcode 70)
 - Edit Distance (Leetcode 72)
 - Decode Ways (Leetcode 91)
 - Interleaving String (Leetcode 97)
@@ -50,6 +51,7 @@ cd dynamic-programming-problems
 - Best Time to Buy and Sell Stock (Leetcode 121)
 - Counting Bits (Leetcode 338)
 - Is Subsequence (Leetcode 392)
+- Fibonacci Number (Leetcode 509)
 - Divisor Game (Leetcode 1025)
 
 ### Fibonacci Sequence 🧬
@@ -59,7 +61,7 @@ cd dynamic-programming-problems
 **Example Usage**:
 
 ```bash
-python fibonacci.py 10
+python "0509_Fibonacci Number_DP.py"
 ```
 
 **Detailed Analysis**: Includes performance comparison of recursive vs dynamic programming approaches with visual aids.
@@ -71,20 +73,18 @@ python fibonacci.py 10
 **Example Usage**:
 
 ```bash
-python climbing_stairs.py 5
+python "0070_Climb Stairs_DP.py"
 ```
 
 **Detailed Analysis**: Focuses on optimizing the recursive solution using dynamic programming techniques to reduce time complexity from exponential to polynomial.
 
 ## Usage 🚀
 
-To run any script, navigate to the specific problem directory and run the Python script with an appropriate argument. For example:
+Each problem has a recursion version and a DP version (for example `0072_EditDistance_Recursion.py` and `0072_EditDistance_DP.py`). Most files are LeetCode-style `Solution` classes: paste one into LeetCode, or load it in Python and call it, for example `Solution().minDistance("horse", "ros")`.
 
-```bash
-python fibonacci.py 10
-```
+The Fibonacci and Climbing Stairs files also set an input `n` at the top and store the result in `out`, so you can run them directly; the Fibonacci DP version prints the DP array as it fills it.
 
-Replace `10` with any number to compute its Fibonacci value using dynamic programming.
+`0070_Climb Stairs_Time Complexity.py` times the recursive Climbing Stairs solution for larger `n` and plots the runtime (needs `matplotlib`).
 
 ## Contributing 🤝
 
@@ -92,7 +92,7 @@ Contributions to improve the existing solutions or add new problem solutions are
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact 📧
 
